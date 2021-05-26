@@ -19,8 +19,8 @@ limitations under the License.
 package core
 
 import (
-	v1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/core/v1alpha1"
-	internalinterfaces "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/core/v1alpha1"
+	internalinterfaces "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

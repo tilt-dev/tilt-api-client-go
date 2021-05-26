@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

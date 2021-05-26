@@ -28,9 +28,9 @@ import (
 	cache "k8s.io/client-go/tools/cache"
 
 	corev1alpha1 "github.com/tilt-dev/tilt/pkg/apis/core/v1alpha1"
-	versioned "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned"
-	internalinterfaces "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/listers/core/v1alpha1"
+	versioned "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned"
+	internalinterfaces "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/listers/core/v1alpha1"
 )
 
 // FileWatchInformer provides access to a shared informer and lister for

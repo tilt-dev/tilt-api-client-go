@@ -22,7 +22,7 @@ import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 
-	v1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned/typed/core/v1alpha1"
+	v1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned/typed/core/v1alpha1"
 )
 
 type FakeTiltV1alpha1 struct {

@@ -25,9 +25,9 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
 
-	clientset "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned"
-	tiltv1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned/typed/core/v1alpha1"
-	faketiltv1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned/typed/core/v1alpha1/fake"
+	clientset "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned"
+	tiltv1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned/typed/core/v1alpha1"
+	faketiltv1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned/typed/core/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

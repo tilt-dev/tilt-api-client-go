@@ -28,9 +28,9 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 
-	versioned "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned"
-	core "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/core"
-	internalinterfaces "github.com/tilt-dev/tilt-api-client/pkg/informers/externalversions/internalinterfaces"
+	versioned "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned"
+	core "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/core"
+	internalinterfaces "github.com/tilt-dev/tilt-api-client-go/pkg/informers/externalversions/internalinterfaces"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

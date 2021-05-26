@@ -25,7 +25,7 @@ import (
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
 
-	tiltv1alpha1 "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned/typed/core/v1alpha1"
+	tiltv1alpha1 "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned/typed/core/v1alpha1"
 )
 
 type Interface interface {

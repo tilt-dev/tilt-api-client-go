@@ -1,4 +1,4 @@
-module github.com/tilt-dev/tilt-api-client
+module github.com/tilt-dev/tilt-api-client-go
 
 go 1.16
 

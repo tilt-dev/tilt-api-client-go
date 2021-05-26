@@ -28,7 +28,7 @@ import (
 	rest "k8s.io/client-go/rest"
 
 	v1alpha1 "github.com/tilt-dev/tilt/pkg/apis/core/v1alpha1"
-	scheme "github.com/tilt-dev/tilt-api-client/pkg/clientset/versioned/scheme"
+	scheme "github.com/tilt-dev/tilt-api-client-go/pkg/clientset/versioned/scheme"
 )
 
 // FileWatchesGetter has a method to return a FileWatchInterface.
